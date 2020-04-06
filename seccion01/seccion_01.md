@@ -21,3 +21,15 @@ con sockets.
 5. Crear juego como [Underrun](https://js13kgames.com/games/underrun/index.html)
 6. Crear app moviles con Ionic, React native, NavitiveScript
 7. Tambien ocupar framework como angular y librerias React.js y Vue.js
+
+## 2. Hola mundo!
+```javascript
+// MI PRIMERA LINEA DE COMANDO EN JS
+console.log("HOLA MUNDO!");
+```
+El console.log va a imprimir por consola el argumento enviado, en este caso es "HOLA MUNDO!".
+
+```javascript
+//VAMOS A IMPRIMIR EL HOLA MUNDO EN TODO EL HMTL, REEMPLAZANDO LO QUE HAY DENTRO DEL HTML
+document.write("HOLA MUNDO!");
+```
