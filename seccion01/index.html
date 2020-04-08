@@ -6,8 +6,30 @@
     <title>Document</title>
 </head>
 <body>
-    Chao mundo
-    <!-- <script src="consola.js"></script> -->
+    <div id='modal_dialog'>
+        <div class='title'>
+        </div>
+        <input type='button' value='yes' id='btnYes' />
+        <input type='button' value='no' id='btnNo' />
+    </div>
+    
+    <script>
+    function DoSomethingDangerous() {
+        var warning = 'Are you sure you want to do this?';
+        $('.title').html(warning);
+        var dialog = $('#modal_dialog').dialog();
+        function Yes() {
+            dialog.dialog('close');
+            // Do something
+        }   
+        function No() {
+            dialog.dialog('close');
+            // Do something else
+        }    
+        $('#btnYes').click(Yes);
+        $('#btnNo').click(No);
+    }
+    </script>
     <script src="input.js"></script>
 </body>
 </html>

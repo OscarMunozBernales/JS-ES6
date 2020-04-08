@@ -96,3 +96,9 @@ Hace un breakpoint en js es inspeccionar el elemento en el navegardor y seleccio
 ![breakpoint](../assets/breakpoint.png)
 
 ## 6. Promt, confirm y alert.
+
+Existen 3 formas de tipo de ingreso de usuario en js
+
+```js
+
+```
