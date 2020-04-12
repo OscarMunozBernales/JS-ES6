@@ -60,7 +60,33 @@ class HolaMundo{} //UpperCamelCase todas las palabras comienzan con mayusculas
 Los arreglos son muy parecidos a una lista de información, que contienen un grupo de elementos.
 Usualmente esa información dentro del arreglo es del musmo tipo de datos ejemple:
 ```js
+//EXISTEN DOS FORMAS DE DECLARAR UN ARREGLO
+const arr = new Array(10); //ES UN ARREGLO CON 10 CASILLAS VACIAS
+const arr = [] //ES UN ARREGLO VACIO
+
+
 let videoJuegos = ['Mario3', 'megaman', 'Final Fantasy IX', 'FIFA 20', 'A plage tale inocent'] // cuando vemos una declaracion de varaibles que comienze con [ y termine con ] es porque estamos tratando con un arreglo
 
 let arregloVacio = [] //esto es un arreglo vacio.
+
+// LOS ARREGLOS EN JS TIENEN UN INDICE QUE COMIENZA EN 0 Y TERMINA EN N (DEPENDIENDO DE CUANTAS CASILAS TIENE) POR EJEMPLO
+let videoJuegos = ['Mario3', 'megaman', 'Final Fantasy IX', 'FIFA 20', 'A plage tale inocent'] // TIENE UN INDICE QUE COMIENZA EN 0 Y TERMINA EN 4, Y EL ARREGLO TIENE 5 ELEMENTOS
+videoJuego[0] //imprimimios la casilla en el indice 0 = Mario3
+videoJuego[4] //Imprime A plage tale inocente
 ```
+
+Dentro de los arreglos podemos ingresar todo tipo de variables string, numeric, bool, functions, objeto literal:
+```js
+
+let arregloCosas = [
+    true,
+    123,
+    1 + 2,
+    function(){}, //FUNCION NORMAL
+    () => {}, //FUNCION DE FLECHA
+    {a : 1}
+]
+
+```
+
+# 5. Más detalles sobre los arreglos.
