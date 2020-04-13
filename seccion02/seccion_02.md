@@ -127,3 +127,16 @@ console.log({metroidIndex, juegos});
 ```
 
 # 6. Objetos literales
+JS tiene dos tipos de objetos principales los primitivos y los objetos, ahora tenemos los objetos literales que basicamente se puede considerar una variable que tiene pares de valores.
+
+```js
+//cuando hay lleves asociadas a una variable es porque es un objeto.
+let personaje = {
+    nombre : 'Tony Stark' //llave : valor llave
+};
+
+console.log(personaje.nombre); //VA A IMPRIMIR 'Tony Stark'
+console.log(personaje['nombre']); //VA A IMPRIMIR 'Tony Stark'
+
+```
+
