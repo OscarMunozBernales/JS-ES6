@@ -8,8 +8,6 @@ Temas puntuales de la sección 2
 6. Objetos literales
 7. Más detalles sobre los objetos literales.
 8. Funciones basicas de flecha
-9. Retorno de las funciones
-10. Pro tip: funciones, argumentos y desestructuración de objetos.
 
 # 1. Tipos de datos primitivos.
 JS es un lenguaje debilmente tipado, nosotros explicitamente no le decimos a js que una variable va a contener un numero o un string.
