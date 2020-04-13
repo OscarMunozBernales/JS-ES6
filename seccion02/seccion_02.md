@@ -170,3 +170,43 @@ console.log( propiedades );
 const valores = Object.values( personaje );
 console.log( valores );
 ```
+
+# 8. Funciones normales y de flecha
+El objetivo principal de una funcione es la reutilizacion de codigo para ejecutar varias veces.
+```js
+//FUNCIONES NORMALES Y DE FLECHA
+
+//FUNCIONES NORMALES
+function saludar(){
+    console.log( arguments );
+    console.log('Hola mundo!');
+}
+
+saludar(123, 123, 3333);
+
+const saludar2 = function(){ //ESTA ES UNA FUNCION ANONIMA
+    console.log('Hola mundo! 2');
+}
+
+
+
+saludar2();
+
+
+//FUNCIONES FLECHA
+
+const saludarFlecha = () => {
+    // console.log( arguments ); //NO FUNCIONA EN FUNCIONES FLECHA
+    console.log('SALUDAR FLECHA');
+
+}
+
+const saludarUsuario = (nombre) => {
+    console.log( 'Hola ' + nombre );
+}
+
+saludarFlecha();
+saludarUsuario('Oscar');
+```
+
+Las funciones de flecha son mas eficientes que las funciones normales, es por esto que la vamos a ver mas a menudo en codigos js
