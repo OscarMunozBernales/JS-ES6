@@ -93,6 +93,8 @@ const disabledBtn = (disabledPedir, disabledDetener) => {
     btnDetener.disabled = disabledDetener;
 }
 
+// const mensajeFinJuego
+
 const aJugar= (jugador, divCartasJugador, puntos) => {
     const carta = pedirCarta();
     puntos += valorCarta( carta );
