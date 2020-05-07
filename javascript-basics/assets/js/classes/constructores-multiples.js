@@ -30,7 +30,7 @@ const fher = {
 }      
 
 const persona1 = new Persona( nombre1, apellido1, pais1 );
-const persona2 = Persona.porObjeto( fher );
+const persona2 = Persona.porObje    to( fher );
 
 
 const persona3 = persona1;
